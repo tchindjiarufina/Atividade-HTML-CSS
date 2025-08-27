@@ -1,0 +1,109 @@
+/* Estilo geral da página */
+body {
+    font-family:cursive;
+
+    background-image: linear-gradient(180deg,rgba(73, 37, 78, 0.15),transparent);
+    display: flex;
+    justify-content:center;
+    align-items:normal;
+    height: 100vh;
+  }
+   
+  h3 {
+    line-height: 1.2;
+    font-size:2rem:;
+      margin: 02rem 0;
+
+}
+  /* Estilo do cartão */
+  .card2 {
+    height: 430px;
+    background-color: #913993;
+    padding: 10px;
+    border-radius: 12px;
+    text-align:center;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    margin: 20px;
+    
+  }
+  .card {
+    height: 430px;
+    background-color: #913993;
+    padding: 10px;
+    border-radius: 12px;
+    text-align:center;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    margin: 20px;
+  }
+  
+  /* Imagem do perfil */
+  .card img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    width: 250px;
+  }
+  .card2 img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 250px;
+    
+  }
+  
+  /* Título */
+  .card h1 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: white;
+  }
+
+  .card2 h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: white;
+ }
+  
+  /* Texto */
+  .card p {
+    color: white;
+    margin: 5px 0 15px;
+  }
+
+  .card2 p {
+    color: white;
+    margin: 5px 0 15px;
+  }
+  
+  /* Botão/link */
+  .card a {
+    text-decoration: none;
+    color: white;
+    background-color: #0077b6;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: background 0.3s;
+  }
+
+  .card2 a {
+    text-decoration: none;
+    color: white;
+    background-color: #0077b6;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: background 0.3s;
+  }
+  
+  
+  /* Efeito hover */
+  .card a:hover {
+    background-color: #02367a;
+  }
+   /* Efeito hover */
+   .card2 a:hover {
+    background-color: #02367a;
+  }
+  
+  
+  
